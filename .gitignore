@@ -1,0 +1,63 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+site/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# Project datasets and raw readings
+synthetic_dataset/
+processed_dataset/
+CRO Readings/
+
+# Model weights and serialized artifacts
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.onnx
+
+# Large data exports and logs
+*.log
+logs/
+*.csv
+
+# Keep small, intentional CSVs if you want them versioned
+!requirements.csv
+
+# Generated analysis and result artifacts
+results/
+outputs/
+artifacts/
+checkpoints/
+wandb/
+mlruns/
+tensorboard/
+runs/
