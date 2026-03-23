@@ -94,7 +94,7 @@ docs/
 
 ```bash
 git clone https://github.com/tl5275/fmcw-radar-pipeline.git
-cd fmcw-radar-ai-system
+cd fmcw-radar-pipeline
 
 pip install -r requirements.txt
 
