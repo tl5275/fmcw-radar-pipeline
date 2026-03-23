@@ -93,9 +93,19 @@ docs/
 ## ▶️ How to Run
 
 ```bash
+# Clone the repository
 git clone https://github.com/tl5275/fmcw-radar-pipeline.git
 cd fmcw-radar-pipeline
 
-pip install -r requirements.txt
+# Install dependencies (recommended method)
+python -m pip install -r requirements.txt
 
+# Run the demo pipeline
 python demo/demo_pipeline.py
+
+# Expected Output:
+# FMCW Radar AI System Running...
+
+# Troubleshooting (if pip fails)
+python -m ensurepip --upgrade
+python -m pip install --upgrade pip
