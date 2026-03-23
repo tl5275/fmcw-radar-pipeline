@@ -93,7 +93,7 @@ docs/
 ## ▶️ How to Run
 
 ```bash
-git clone https://github.com/tl5275/fmcw-radar-ai-system.git
+git clone https://github.com/tl5275/fmcw-radar-pipeline.git
 cd fmcw-radar-ai-system
 
 pip install -r requirements.txt
